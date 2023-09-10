@@ -1,6 +1,6 @@
 {
     "name": "remcostoeten-animated-text",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "main": "dist/AnimatedText.js",
     "types": "dist/AnimatedText.d.ts",
     "scripts": {
