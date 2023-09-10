@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   framer-motion:
-    specifier: ^4.1.17
-    version: 4.1.17(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^10.16.2
+    version: 10.16.4(react-dom@18.2.0)(react@18.2.0)
   pnpm:
     specifier: ^8.7.4
     version: 8.7.4
@@ -71,31 +71,22 @@ packages:
     resolution: {integrity: sha512-I7K1Uu0MBPzaFKg4nI5Q7Vs2t+3gWWW648spaF+Rg7pI9ds18Ugn+lvg4SHczUdKlHI5LWBXyqfS8+DufyBsgQ==}
     dev: true
 
-  /framer-motion@4.1.17(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-thx1wvKzblzbs0XaK2X0G1JuwIdARcoNOW7VVwjO8BUltzXPyONGAElLu6CiCScsOQRI7FIk/45YTFtJw5Yozw==}
+  /framer-motion@10.16.4(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-p9V9nGomS3m6/CALXqv6nFGMuFOxbWsmaOrdmhyQimMIlLl3LC7h7l86wge/Js/8cRu5ktutS/zlzgR7eBOtFA==}
     peerDependencies:
-      react: '>=16.8 || ^17.0.0'
-      react-dom: '>=16.8 || ^17.0.0'
+      react: ^18.0.0
+      react-dom: ^18.0.0
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
     dependencies:
-      framesync: 5.3.0
-      hey-listen: 1.0.8
-      popmotion: 9.3.6
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
-      style-value-types: 4.1.4
       tslib: 2.6.2
     optionalDependencies:
       '@emotion/is-prop-valid': 0.8.8
-    dev: false
-
-  /framesync@5.3.0:
-    resolution: {integrity: sha512-oc5m68HDO/tuK2blj7ZcdEBRx3p1PjrgHazL8GYEpvULhrtGIFbQArN6cQS2QhW8mitffaB+VYzMjDqBxxQeoA==}
-    dependencies:
-      tslib: 2.6.2
-    dev: false
-
-  /hey-listen@1.0.8:
-    resolution: {integrity: sha512-COpmrF2NOg4TBWUJ5UVyaCU2A88wEMkUPK4hNqyCkqHbxT92BbvfjoSozkAIIm6XhicGlJHhFdullInrdhwU8Q==}
     dev: false
 
   /js-tokens@4.0.0:
@@ -113,15 +104,6 @@ packages:
     resolution: {integrity: sha512-/bQ5bXp8l7krhm2QXQVGuPjzNC/Z/p0fK4kw8aIrqG0YthTS9akRKGHiWyaHX623lntCriHBZZPqhbXczqSNVg==}
     engines: {node: '>=16.14'}
     hasBin: true
-    dev: false
-
-  /popmotion@9.3.6:
-    resolution: {integrity: sha512-ZTbXiu6zIggXzIliMi8LGxXBF5ST+wkpXGEjeTUDUOCdSQ356hij/xjeUdv0F8zCQNeqB1+PR5/BB+gC+QLAPw==}
-    dependencies:
-      framesync: 5.3.0
-      hey-listen: 1.0.8
-      style-value-types: 4.1.4
-      tslib: 2.6.2
     dev: false
 
   /react-dom@18.2.0(react@18.2.0):
@@ -145,13 +127,6 @@ packages:
     resolution: {integrity: sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==}
     dependencies:
       loose-envify: 1.4.0
-    dev: false
-
-  /style-value-types@4.1.4:
-    resolution: {integrity: sha512-LCJL6tB+vPSUoxgUBt9juXIlNJHtBMy8jkXzUJSBzeHWdBu6lhzHqCvLVkXFGsFIlNa2ln1sQHya/gzaFmB2Lg==}
-    dependencies:
-      hey-listen: 1.0.8
-      tslib: 2.6.2
     dev: false
 
   /tslib@2.6.2:
