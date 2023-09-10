@@ -1,0 +1,25 @@
+{
+    "name": "remcostoeten-animated-text",
+    "version": "1.0.0",
+    "main": "dist/AnimatedText.js",
+    "types": "dist/AnimatedText.d.ts",
+    "scripts": {
+        "build": "tsc"
+    },
+    "peerDependencies": {
+        "framer-motion": "^4.1.17",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+        "@types/react": "^18.2.0",
+        "@types/react-dom": "^18.2.0",
+        "typescript": "^4.1.5"
+    },
+    "description": "A React component for animated text.",
+    "author": "Remco Stoeten",
+    "license": "ISC",
+    "dependencies": {
+        "pnpm": "^8.7.4"
+    }
+}
